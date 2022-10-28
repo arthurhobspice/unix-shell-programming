@@ -1,0 +1,4 @@
+function lmore
+{
+  ls -alR $1 | more
+}
