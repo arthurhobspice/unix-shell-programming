@@ -1,0 +1,4 @@
+function lless
+{
+  ls -alR $1 | less
+}
