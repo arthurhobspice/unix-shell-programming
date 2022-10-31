@@ -1,6 +1,6 @@
 #!/bin/ksh
 
-for FILE in dat*
+for FILE in f*
 do
-  mv $FILE datei${FILE#dat}
+  mv $FILE file${FILE#f}
 done

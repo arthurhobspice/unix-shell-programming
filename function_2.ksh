@@ -4,16 +4,16 @@ function move
 {
   mv $1 $2
   if (( $? == 0 )); then
-    print "Move erfolgreich."
+    print "Successfully moved."
     return 0
   else
-    print "Move nicht erfolgreich."
+    print "Move failed."
     return 1
   fi
 }
 
 if move testfile testfile2; then
-  print "Sehr schoen"
+  print "Fine"
 else
-  print "Schade"
+  print "Bummer"
 fi

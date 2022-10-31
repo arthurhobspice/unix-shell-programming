@@ -4,6 +4,6 @@ count=1
 
 while (( count <= 100 ))
 do
-  touch datei$count
+  touch file$count
   (( count += 1 ))
 done
